@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Table</title>
+    <style>
+        body {
+            background-color: lightblue;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        .text-container {
+            width: 50%;
+            float: left;
+            padding-left: 20px;
+        }
+
+        .image-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .image-item {
+            width: 50%; 
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style for image captions */
+        .image-caption {
+            font-weight: bold;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Animal</th>
+                <th>Environment</th>
+                <th>Mammal</th>
+                <th>Life-Span</th>
+                <th>Diet</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gorilla</td>
+                <td>Forest/Rainforest</td>
+                <td>YES</td>
+                <td>35-40 Years</td>
+                <td>Herbivore</td>
+            </tr>
+            
+            <tr>
+                <td>Penguin</td>
+                <td>Southern Hemisphere</td>
+                <td>NO</td>
+                <td>20 Years</td>
+                <td>Carnivores</td>
+            </tr>
+            <tr>
+                <td>Tiger</td>
+                <td>Terrestrial Environments</td>
+                <td>YES</td>
+                <td>15 Years</td>
+                <td>Carnivores</td>
+            </tr>
+            <tr>
+                <td>Lion</td>
+                <td>Africa</td>
+                <td>YES</td>
+                <td>14 Years</td>
+                <td>Carnivores</td>
+            </tr>
+            <tr>
+                <td>Giraffe</td>
+                <td>Grasslands,Open Woodlands in Africa</td>
+                <td>YES</td>
+                <td>15-25 Years</td>
+                <td>Herbivore</td>
+            </tr>
+            <tr>
+                <td>Zebra</td>
+                <td>Grasslands,Open Woodlands in Afric</td>
+                <td>YES</td>
+                <td>20-30 Years</td>
+                <td>Herbivore</td>
+            </tr>
+            <tr>
+                <td>Snakes</td>
+                <td>Forest, Deserts, Grasslands</td>
+                <td>NO</td>
+                <td>2-30 Years</td>
+                <td>Carnivores</td>
+            </tr>
+            <tr>
+                <td>Hyena</td>
+                <td>Grasslands, Woolands and Savannas</td>
+                <td>YES</td>
+                <td>12-15 Years</td>
+                <td>Carnivores</td>
+            </tr>
+            <tr>
+                <td>Elephant</td>
+                <td>African Savannahs, Rainforest/Forests</td>
+                <td>YES</td>
+                <td>60-70 Years</td>
+                <td>Herbivore</td>
+            </tr>
+            <tr>
+                <td>Cheetah</td>
+                <td>Woolands and Savannas</td>
+                <td>YES</td>
+                <td>7-10 Years</td>
+                <td>Herbivore</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="text-container">
+        <h2>About the Animals</h2>
+        <p>This provides a few pieces of information about the animals in the table. It is split up intp 4 categorys
+            and it tells you what the animal is, what environment they are usually in, if they are a Mammal
+            and the type of diet they are on. Some animals only eat meat which are considered 
+            carnivores while others eat only plants which are herbivores. It's very interesting to 
+        where you can find these wildlife animals because they are not just regular everyday animal. The zoo or 
+    like a resort/safari would be the best place to come across these certain animals and you can just view 
+them from a distance with no harm. Majority of them are friendly and will cause no harm. Each animal has a 
+different lifespan compared to everyone else and it is also interesting to see how different species of snakes
+last way longer compared to others. As provided in the chart a snake can live up to a minimum of 2 years to a maximum of 
+30 years depending on what type of snake it is. </p>
+    </div>
+
+    <div class="image-container">
+        <div class="image-item">
+            <figure>
+                <img src="girafee.jpeg" alt="gorilla">
+            </figure>
+            <p class="image-caption">GIRAFFE</p>
+        </div>
+
+        <div class="image-item">
+            <figure>
+                <img src="zebra.jpeg" alt="zebra">
+            </figure>
+            <p class="image-caption">ZEBRA</p>
+        </div>
+        <div class="image-item">
+            <figure>
+                <img src="elephant.jpeg" alt="zebra">
+            </figure>
+            <p class="image-caption">ELEPHANT</p>
+        </div>
+        <div class="image-item">
+            <figure>
+                <img src="cheetah.jpeg" alt="zebra">
+            </figure>
+            <p class="image-caption">CHEETAH</p>
+        </div>
+        <div class="image-item">
+            <figure>
+                <img src="HYENA.jpeg" alt="zebra">
+            </figure>
+            <p class="image-caption">HYENA</p>
+        </div>
+        <div class="image-item">
+            <figure>
+                <img src="snake.jpeg" alt="zebra">
+            </figure>
+            <p class="image-caption">SNAKE</p>
+        </div>
+
+
+</main>
+<footer>
+    <p>&copy; 2023 AZMAIN HOSSAIN</p>
+    <p><a href="index.html">Back to Home</a></p>
+</footer>
+</body>
+</html>

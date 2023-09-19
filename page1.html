@@ -1,0 +1,177 @@
+</head>
+<body>
+    <header>
+        <h1>Facts About The Animals</h1>
+        <title>FACTS</title>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Page 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+         
+        
+<main>
+    <section class="content">
+        <h1>Three Animals</h1>
+        <p>These are a few facts with the animals and how they are</p>
+
+        <!-- Three images with captions -->
+        <div class="image-container">
+            <figcaption>GORILLA</figcaption>
+            <figure>
+                <img src="gorilla.jpeg" alt="gorilla">
+            </figure>
+        </div>
+            <p>
+                Gorillas, which are the largest living primates, An average silverback gorilla can weigh up to 
+                180kg, and measure 170cm tall on all fours. In contrast, female mountain gorillas weigh 90kg, and measure up to 150cm (4’9”).
+                are native to the  forests of central and sub-Saharan Africa. They can be found in many other locations but in africa is ideal.
+                These gentle herbivores primarily sustain themselves 
+                by consuming leaves, stems, and fruits. Gorillas are highly social animals, i am sure we have all seen videos online of 
+                a gorilla having a friendly human interaction with someone with ease and no harm.  
+                Remarkably intelligent, gorillas exhibit tool usage and employ a 
+                variety of vocalizations and body language for communication. 
+                There are two distinct species of gorillas: the eastern gorillas and the 
+                western gorillas. The mountain gorilla, a subspecies of the eastern gorilla, 
+                is tragically critically endangered, underscoring the urgent need for conservation efforts.
+                These creatures, which share an astonishing 98% of their DNA with humans, 
+                captivate with their gentle nature and complex social interactions,
+                making their protection and the preservation of their natural habitats vital endeavors.
+                </p>
+        </figure>
+
+        <div class="image-container">
+            <figcaption>PENGUIN</figcaption>
+            <figure>
+                <img src="penguin.jpeg" alt="gorilla">
+            </figure>
+        </div>
+            <p>
+                Penguins are fascinating birds 
+                that have adapted to life in some of the world's 
+                harshest environments. These flightless birds are 
+                primarily found in the Southern Hemisphere, with some 
+                species inhabiting regions as far south as Antarctica. 
+                Penguins are excellent swimmers and are known for their 
+                agility underwater. Their bodies are streamlined for swimming, 
+                with flippers that serve as powerful paddles. Despite their comical waddling 
+                on land, penguins are incredibly graceful in the water. They seem like the sweetest animals ever. They primarily feed on 
+                fish and using their sharp beaks to catch prey. Penguins are highly social animals, 
+                often forming large colonies for breeding and protection. They are also known for their 
+                distinctive black and white plumage, which helps them blend in with their surroundings
+                while swimming and provides some protection from predators. Penguins are a symbol of 
+                resilience and adaptability, thriving in some of the world's most extreme conditions.
+                
+                </p>
+        </figure>
+
+        <div class="image-container">
+            <figcaption>TIGER</figcaption>
+            <figure>
+                <img src="Tiger image.jpeg" alt="gorilla">
+            </figure>
+        </div>
+            <p>
+                Tigers are regal large cats distinguished by their eye-catching orange coat with black stripes. 
+                Known for their power and agility, they are the largest of the big cat species. 
+                Tigers are mostly found in Asia and live in a variety of various environments, 
+                including meadows and deep jungles. With their strong jaws and cutting-edge fangs, 
+                these predators can jump on prey like deer, boar, and even bigger animals like buffalo. 
+                Tigers are solitary creatures, with each one creating and protecting 
+                its own territory. Despite their solitary lifestyle, they are known 
+                to enjoy bathing and cooling off in rivers and lakes because they are skilled
+                swimmers. Sadly, habitat destruction and poaching for their prized body parts have 
+                led to the extinction of tigers. There are conservation efforts. Lions can be pretty dangerous to humans
+                but they are amazing animals that you can view from a distance.
+            </p>
+        </figure>
+
+<style>
+    body {background-color: blue;} /* Set the background color of the entire page to blue */
+    h1   {color: black;} /* Set the color of all <h1> elements to black */
+    p    {color: black;} /* Set the color of all <p> elements to black */
+
+    body {
+        font-family: Arial, sans-serif; /* Use Arial or a sans-serif font */
+    
+        background-color: lightblue; /* Set the background color to light blue */
+        }
+        header {
+            background-color: lightblue; /* Set header background color */
+            color: white; /* Set text color to white */
+            padding: 20px; /* Add padding around the header content */
+            text-align: center; /* Center-align header content */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        /* CSS for images and captions */
+        figure {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        figure img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px; 
+        }
+
+        figcaption {
+            flex-grow: 1; 
+        }
+
+    .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+</style>   
+</style>   
+
+    </main>
+    <footer>
+        <p>&copy; 2023 AZMAIN HOSSAIN</p>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
+    </body>
+    </html>
+
+
+    <button id="changeColorButton">Change Background Color</button>
+
+    <script>
+        const colors = [
+            "rgb(0, 0, 255)",    // Blue
+            "rgb(0, 128, 0)",    // Green
+            "rgb(255, 0, 0)",    // Red
+            "rgb(255, 255, 0)"   // Yellow
+        ];
+        let currentIndex = 0;
+    
+        document.getElementById("changeColorButton").addEventListener("click", function() {
+            // Change the background color based on the current index
+            document.body.style.backgroundColor = colors[currentIndex];
+    
+            // Increment the index, and loop back to 0 if it exceeds the array length
+            currentIndex = (currentIndex + 1) % colors.length;
+        });
+    </script>
